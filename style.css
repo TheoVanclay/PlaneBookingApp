@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    top: 50px;
+    margin: auto;
+    width: 500px;
+    min-width: 300px;
+    max-width: 500px;
+    position: relative;
+    height: 100px;
+    border: 3px dotted black;
+    background-color: aliceblue;
+}
+
+.logo {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.blurb {
+    padding-top: 65px;
+    margin: auto;
+    font-size: larger;
+    text-align: center;
+    z-index: 100;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: 600;
+}
+
+
+/* Check Return */
+.return-choice {
+    width: 5%;
+    margin: auto;
+    padding: 10px;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    margin-top:0px;
+}
+
+.return-buttons {
+    margin:auto;
+}
+
+.labels{
+    margin: auto;
+}
+
+.return {
+    margin: auto;
+}
+
+#onewaylb {
+    margin: 0 5px;
+}
+
+#returnlb {
+    margin: 0 15px;
+}
+
+#oneway {
+    margin: 0 30px;
+}
+
+#return {
+    margin: 0 30px;
+}
+
+/* Define Airports */
+
+.choose-ports {
+    background-color: aqua;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    align-items: center;
+}
+
+.contact-details {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    align-items: center;
+}
+
+.passenger-input {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    align-items: center;
+    top: 100px;
+}
+
+.passenger-input h5{
+    color: black;
+    font-weight: normal;
+    margin: 10px auto 0;
+    top: 10px;
+    text-decoration: underline;
+}
+
+.form-section {
+    background-color: rgba(255, 255, 235, 0.3);
+    margin: auto;
+}
+
+h4 {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.subb {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
